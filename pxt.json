@@ -1,0 +1,29 @@
+{
+    "name": "nerdle",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "editor-extension-sample": "github:meeeeeeeep1/pxt-editor-extension-sample#f0a05fd3db5a8c3c6ce07089ea79f082738dce06",
+        "my-extension": "github:microsoft/pxt-react-extension-template#9d5e23ed17ed43689f64cc7779d6b93325746b5b"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "ss.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.30",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
